@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Oswald&display=swap');
+
+* {
+   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+}
+
+li, a {
+    cursor: pointer;
+}
+
+body {
+  background-color: rgba(227, 227, 227);
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: white;
+  box-shadow: 0 0 25px 0 #999;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 8px 28px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+  height: 88px;
+  width: 195px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 8px 28px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+}
+
+button:hover {
+  color:  rgba(0, 0, 0);
+  background-color: white;
+}
+
+/******************** header Ende*********************/
+
+/******************** HOMEEEE*********************/
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+#img {
+  display: block;
+  margin: auto;
+    width: 280px;
+    height: 397px;
+}
+
+.box {
+  margin: 5%;
+  height: 3000px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 25px 0 #999;
+}
+
+
+ #header1 {
+   padding-top: 20px;
+   font-size: 55px;
+   margin-bottom: 0px;
+ }
+
+ #header2 {
+   margin-top: -15px;
+   font-size: 20px;
+   color: gray;
+   margin-bottom: 70px;
+ }
+
+ .header3 {
+   margin-top: 100px;
+   font-size: 40px;
+   text-align: center;
+ }
+
+ .introduction {
+   font-family: "Arimo", sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+
+ }
+
+ .textbox {
+   padding-left: 10%;
+   padding-right: 10%;
+   margin-top: 50px;
+   border-left: 20px gray solid;
+   border-right: 20px gray solid;
+ }
+
+.post {
+  margin-top: 150px;
+  margin-left: 12%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 15px 0 #999;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245);
+
+}
+
+.zutaten {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Arimo", sans-serif;
+}
+
+.rezeptname {
+  text-align: left;
+  margin-bottom: 15px;
+}
+ /******************** HOMEEEE ENDE*********************/
+
+ /******************** KONTAKT*********************/
+
+ form {
+   font-family: "Arimo";
+   display: block;
+   margin-left: 32%;
+   font-size: 20px;
+
+ }
+
+ input {
+   width: 600px;
+   height: 40px;
+   border: 1px solid gray;
+   margin: 10px;
+   border-radius: 5px;
+ }
+
+ fieldset {
+   padding-left: 20%;
+   padding-right: 20%;
+ }
+
+.legend {
+  font-family: "Arimo";
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.submit {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  border: 1px black solid;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  width: 100px;
+  height: 30px;
+  padding-top: 3px;
+  padding-left: 10px;
+}
